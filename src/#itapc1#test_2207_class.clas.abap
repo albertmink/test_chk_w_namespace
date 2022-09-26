@@ -14,12 +14,14 @@ ENDCLASS.
 
 
 
-CLASS /itapc1/test_2207_class IMPLEMENTATION.
+CLASS /ITAPC1/TEST_2207_CLASS IMPLEMENTATION.
+
 
 METHOD if_ci_atc_check~get_meta_data.
     DATA lo_meta_data TYPE REF TO if_ci_atc_check_meta_data .
     meta_data = NEW meta_data( ).
   ENDMETHOD.
+
 
   METHOD if_ci_atc_check~run.
 
@@ -42,12 +44,13 @@ METHOD if_ci_atc_check~get_meta_data.
 
   ENDMETHOD.
 
+
   METHOD if_ci_atc_check~set_assistant_factory.
     assistant_factory = factory.
   ENDMETHOD.
 
+
   METHOD if_ci_atc_check~verify_prerequisites.
 
   ENDMETHOD.
-
 ENDCLASS.
