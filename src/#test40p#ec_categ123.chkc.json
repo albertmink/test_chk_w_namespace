@@ -4,5 +4,6 @@
     "description": "Test123477777",
     "originalLanguage": "en",
     "abapLanguageVersion": "cloudDevelopment"
-  }
+  },
+  "parentCategory": "ZBJ_ATC"
 }
